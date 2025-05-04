@@ -35,7 +35,7 @@ jobs:
       - name: Build
         run: |
           bun install
-          bun build index.html --outdir=dist --minify --sourcemap=external
+          bun build index.html --outdir=dist --production
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
