@@ -32,9 +32,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build
-      - uses: oven-sh/setup-bun@v2
-      - run: bun install
-      - run: bun build index.html --outdir=dist --minify --sourcemap=external
+        uses: oven-sh/setup-bun@v2
+        run: bun install
+        run: bun build index.html --outdir=dist --minify --sourcemap=external
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
