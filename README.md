@@ -1,0 +1,3 @@
+# experimenting with monaco-editor...
+getting typings directly from cdn:
+![image](https://github.com/user-attachments/assets/20ee3f4f-a3bf-4d13-ba99-5861996071e3)
